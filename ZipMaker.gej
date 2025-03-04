@@ -1,0 +1,71 @@
+{
+	"name": "ZipMaker",
+	"folder": "gm82",
+	"version": "1.0",
+	"author": "DFelipehDEV",
+	"date": "04/03/2025",
+	"license": "Free to use, also for commercial games.",
+	"description": "",
+	"helpfile": "",
+	"hidden": false,
+	"dependencies": [
+	],
+	"files": [
+		{
+			"filename": "ZipMaker.dll",
+			"origname": "ZipMaker.dll",
+			"kind": 1,
+			"init": "",
+			"final": "",
+			"functions": [
+				{
+					"name": "zip_create",
+					"extname": "_zip_create",
+					"calltype": 12,
+					"helpline": "zip_create()",
+					"hidden": false,
+					"argtypes": [],
+					"returntype": 2
+				},
+				{
+					"name": "zip_add_file",
+					"extname": "_zip_add_file",
+					"calltype": 12,
+					"helpline": "zip_add_file(zip_object, dest, src)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						1,
+						1
+					],
+					"returntype": 2
+				},
+				{
+					"name": "zip_save",
+					"extname": "_zip_save",
+					"calltype": 12,
+					"helpline": "zip_save(zip_object, path)",
+					"hidden": false,
+					"argtypes": [
+						2,
+						1
+					],
+					"returntype": 2
+				},
+				{
+					"name": "zip_unzip",
+					"extname": "_zip_unzip",
+					"calltype": 12,
+					"helpline": "zip_unzip(zip_file, target_directory)",
+					"hidden": false,
+					"argtypes": [
+						1,
+						1
+					],
+					"returntype": 2
+				}
+			],
+			"constants": []
+		}
+	]
+}
